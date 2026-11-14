@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"ex6_12_leds\startup_stm32f103xb.o"
+"ex6_12_leds\main.o"
+"ex6_12_leds\stm32f1xx_it.o"
+"ex6_12_leds\stm32f1xx_hal_msp.o"
+"ex6_12_leds\stm32f1xx_hal_gpio_ex.o"
+"ex6_12_leds\stm32f1xx_hal.o"
+"ex6_12_leds\stm32f1xx_hal_rcc.o"
+"ex6_12_leds\stm32f1xx_hal_rcc_ex.o"
+"ex6_12_leds\stm32f1xx_hal_gpio.o"
+"ex6_12_leds\stm32f1xx_hal_dma.o"
+"ex6_12_leds\stm32f1xx_hal_cortex.o"
+"ex6_12_leds\stm32f1xx_hal_pwr.o"
+"ex6_12_leds\stm32f1xx_hal_flash.o"
+"ex6_12_leds\stm32f1xx_hal_flash_ex.o"
+"ex6_12_leds\stm32f1xx_hal_exti.o"
+"ex6_12_leds\system_stm32f1xx.o"
+--strict --scatter "EX6_12_LEDS\EX6_12_LEDS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX6_12_LEDS.map" -o EX6_12_LEDS\EX6_12_LEDS.axf

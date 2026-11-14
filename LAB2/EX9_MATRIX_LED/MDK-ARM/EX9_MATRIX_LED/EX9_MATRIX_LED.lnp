@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ex9_matrix_led\startup_stm32f103xb.o"
+"ex9_matrix_led\main.o"
+"ex9_matrix_led\stm32f1xx_it.o"
+"ex9_matrix_led\stm32f1xx_hal_msp.o"
+"ex9_matrix_led\stm32f1xx_hal_gpio_ex.o"
+"ex9_matrix_led\stm32f1xx_hal_tim.o"
+"ex9_matrix_led\stm32f1xx_hal_tim_ex.o"
+"ex9_matrix_led\stm32f1xx_hal.o"
+"ex9_matrix_led\stm32f1xx_hal_rcc.o"
+"ex9_matrix_led\stm32f1xx_hal_rcc_ex.o"
+"ex9_matrix_led\stm32f1xx_hal_gpio.o"
+"ex9_matrix_led\stm32f1xx_hal_dma.o"
+"ex9_matrix_led\stm32f1xx_hal_cortex.o"
+"ex9_matrix_led\stm32f1xx_hal_pwr.o"
+"ex9_matrix_led\stm32f1xx_hal_flash.o"
+"ex9_matrix_led\stm32f1xx_hal_flash_ex.o"
+"ex9_matrix_led\stm32f1xx_hal_exti.o"
+"ex9_matrix_led\system_stm32f1xx.o"
+--strict --scatter "EX9_MATRIX_LED\EX9_MATRIX_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX9_MATRIX_LED.map" -o EX9_MATRIX_LED\EX9_MATRIX_LED.axf

@@ -1,0 +1,62 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Overview}{1}{section*.4}%
+\contentsline {subsection}{\numberline {0.1}Input, processing, and output model}{1}{subsection.0.1}%
+\contentsline {section}{\numberline {1}Exercise 1: Finite state machine}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Design idea and mode transitions}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}State variables, events, and entry actions}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Normal phases and timing relationship}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Deriving the phase timing invariant}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Editing actions and event priority}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Transition priorities and boundary cases}{5}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Exercise 2: Proteus schematic}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Circuit organization and polarity}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Shared commands and display buses}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Electrical interpretation of an active-low button}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Traffic and display current paths}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Exercise 3: STM32 project configuration}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Peripheral and module organization}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}CubeMX GPIO and pinout configuration}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Ten-millisecond TIM2 calculation}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Interrupt enable and HAL event path}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Clock-source verification and runtime initialization}{10}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Exercise 4: Changing the timer period}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Time units instead of fixed interrupt counts}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Parameter conversion and representative values}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Keeping display and button intervals independent}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Two-hertz blink calculation and timing resolution}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Two time bases and foreground scheduling}{13}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Exercise 5: Button debouncing and mode events}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Three consecutive samples}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Sample-by-sample debounce example}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Remembering and consuming events}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Event counts versus a pressed level}{16}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Held INC behavior}{16}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Hold timing and why only INC repeats}{16}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Exercise 6: Displaying modes and blinking the selected color}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Meaning of the two display pairs}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Decimal conversion and the two-slot sequence}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Refresh frequency and output polarity}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Blink state and expected sequence}{19}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Frequency, duty cycle, and user-visible behavior}{19}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Exercise 7: Adjusting the red duration}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Candidate adjustment and range}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Commit rule and worked example}{20}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Red-mode event trace and valid commit range}{20}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Exercise 8: Adjusting the amber duration}{21}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Mode entry and shared editing algorithm}{21}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Commit rule and worked example}{21}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Amber-mode constraints and countdown consequences}{21}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Exercise 9: Adjusting the green duration}{22}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Mode entry and confirmation}{22}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Worked example and return to normal}{22}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Green-mode range and complete-cycle calculation}{22}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Exercise 10: Integrated traffic-light application}{23}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Initialization and foreground loop}{23}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Event dispatch and priority}{23}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}One-second countdown and phase transitions}{23}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Expected normal sequence}{24}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Integrated default cycle, second by second}{24}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Startup, foreground latency, and re-entry behavior}{24}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Demonstration sequence}{25}{subsection.10.7}%
+\contentsline {section}{Conclusion}{25}{section*.5}%
+\contentsline {section}{References}{26}{section*.6}%

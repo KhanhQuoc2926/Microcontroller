@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"ex1_two_led\startup_stm32f103xb.o"
+"ex1_two_led\main.o"
+"ex1_two_led\stm32f1xx_it.o"
+"ex1_two_led\stm32f1xx_hal_msp.o"
+"ex1_two_led\stm32f1xx_hal_gpio_ex.o"
+"ex1_two_led\stm32f1xx_hal.o"
+"ex1_two_led\stm32f1xx_hal_rcc.o"
+"ex1_two_led\stm32f1xx_hal_rcc_ex.o"
+"ex1_two_led\stm32f1xx_hal_gpio.o"
+"ex1_two_led\stm32f1xx_hal_dma.o"
+"ex1_two_led\stm32f1xx_hal_cortex.o"
+"ex1_two_led\stm32f1xx_hal_pwr.o"
+"ex1_two_led\stm32f1xx_hal_flash.o"
+"ex1_two_led\stm32f1xx_hal_flash_ex.o"
+"ex1_two_led\stm32f1xx_hal_exti.o"
+"ex1_two_led\system_stm32f1xx.o"
+--strict --scatter "EX1_TWO_LED\EX1_TWO_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX1_TWO_LED.map" -o EX1_TWO_LED\EX1_TWO_LED.axf

@@ -1,0 +1,23 @@
+Compiling ../Core/Src/main.c
+Compiling ../Core/Src/stm32f1xx_it.c
+Compiling ../Core/Src/stm32f1xx_hal_msp.c
+Compiling ../Core/Src/input_reading.c
+Compiling ../Core/Src/output_display.c
+Compiling ../Core/Src/tim.c
+Compiling ../Core/Src/timer.c
+Compiling ../Core/Src/input_processing.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+Compiling ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+Compiling ../Core/Src/system_stm32f1xx.c
+Compiled 22 C files successfully with Arm Compiler 6.23.

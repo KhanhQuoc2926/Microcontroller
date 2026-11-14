@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ex5_digital_clock\startup_stm32f103xb.o"
+"ex5_digital_clock\main.o"
+"ex5_digital_clock\stm32f1xx_it.o"
+"ex5_digital_clock\stm32f1xx_hal_msp.o"
+"ex5_digital_clock\stm32f1xx_hal_gpio_ex.o"
+"ex5_digital_clock\stm32f1xx_hal_tim.o"
+"ex5_digital_clock\stm32f1xx_hal_tim_ex.o"
+"ex5_digital_clock\stm32f1xx_hal.o"
+"ex5_digital_clock\stm32f1xx_hal_rcc.o"
+"ex5_digital_clock\stm32f1xx_hal_rcc_ex.o"
+"ex5_digital_clock\stm32f1xx_hal_gpio.o"
+"ex5_digital_clock\stm32f1xx_hal_dma.o"
+"ex5_digital_clock\stm32f1xx_hal_cortex.o"
+"ex5_digital_clock\stm32f1xx_hal_pwr.o"
+"ex5_digital_clock\stm32f1xx_hal_flash.o"
+"ex5_digital_clock\stm32f1xx_hal_flash_ex.o"
+"ex5_digital_clock\stm32f1xx_hal_exti.o"
+"ex5_digital_clock\system_stm32f1xx.o"
+--strict --scatter "EX5_DIGITAL_CLOCK\EX5_DIGITAL_CLOCK.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX5_DIGITAL_CLOCK.map" -o EX5_DIGITAL_CLOCK\EX5_DIGITAL_CLOCK.axf

@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ex1_interrupt_2_7seg\startup_stm32f103xb.o"
+"ex1_interrupt_2_7seg\main.o"
+"ex1_interrupt_2_7seg\stm32f1xx_it.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_msp.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_gpio_ex.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_tim.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_tim_ex.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_rcc.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_rcc_ex.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_gpio.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_dma.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_cortex.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_pwr.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_flash.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_flash_ex.o"
+"ex1_interrupt_2_7seg\stm32f1xx_hal_exti.o"
+"ex1_interrupt_2_7seg\system_stm32f1xx.o"
+--strict --scatter "EX1_INTERRUPT_2_7SEG\EX1_INTERRUPT_2_7SEG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX1_INTERRUPT_2_7SEG.map" -o EX1_INTERRUPT_2_7SEG\EX1_INTERRUPT_2_7SEG.axf

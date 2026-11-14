@@ -1,0 +1,107 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+entering extended mode
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(D:\LATEX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(D:\LATEX\tex/latex/base\size10.clo)) (D:\LATEX\tex/latex/vntex\vntex.sty
+(D:\LATEX\tex/latex/base\ifthen.sty) (D:\LATEX\tex/latex/base\fontenc.sty
+(D:\LATEX\tex/latex/vntex\t5enc.def (D:\LATEX\tex/latex/vntex\t5enc.dfu))
+(D:\LATEX\tex/latex/vntex\t5cmr.fd)) (D:\LATEX\tex/latex/base\inputenc.sty)
+(D:\LATEX\tex/latex/vntex\vncaps.tex)) (D:\LATEX\tex/generic/babel\babel.sty
+(D:\LATEX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\LATEX\tex/latex/arabi\bblopts.cfg)
+(D:\LATEX\tex/generic/babel/locale/en\babel-english.tex)
+(D:\LATEX\tex/latex/babel-english\english.ldf))
+(D:\LATEX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(D:\LATEX\tex/latex/amsmath\amstext.sty (D:\LATEX\tex/latex/amsmath\amsgen.sty)
+) (D:\LATEX\tex/latex/amsmath\amsbsy.sty)
+(D:\LATEX\tex/latex/amsmath\amsopn.sty))
+(D:\LATEX\tex/latex/graphics\graphicx.sty
+(D:\LATEX\tex/latex/graphics\keyval.sty)
+(D:\LATEX\tex/latex/graphics\graphics.sty (D:\LATEX\tex/latex/graphics\trig.sty
+) (D:\LATEX\tex/latex/graphics-cfg\graphics.cfg)
+(D:\LATEX\tex/latex/graphics-def\pdftex.def)))
+(D:\LATEX\tex/latex/xcolor\xcolor.sty
+(D:\LATEX\tex/latex/graphics-cfg\color.cfg)
+(D:\LATEX\tex/latex/graphics\mathcolor.ltx))
+(D:\LATEX\tex/latex/booktabs\booktabs.sty) (D:\LATEX\tex/latex/tools\array.sty)
+ (D:\LATEX\tex/latex/tools\indentfirst.sty)
+(D:\LATEX\tex/latex/geometry\geometry.sty
+(D:\LATEX\tex/generic/iftex\ifvtex.sty (D:\LATEX\tex/generic/iftex\iftex.sty))
+(D:\LATEX\tex/latex/geometry\geometry.cfg))
+(D:\LATEX\tex/latex/fancyhdr\fancyhdr.sty)
+(D:\LATEX\tex/latex/listings\listings.sty
+(D:\LATEX\tex/latex/listings\lstpatch.sty)
+(D:\LATEX\tex/latex/listings\lstmisc.sty)
+(D:\LATEX\tex/latex/listings\listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(D:\LATEX\tex/latex/hyperref\hyperref.sty
+(D:\LATEX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(D:\LATEX\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(D:\LATEX\tex/generic/pdfescape\pdfescape.sty
+(D:\LATEX\tex/generic/ltxcmds\ltxcmds.sty)
+(D:\LATEX\tex/generic/pdftexcmds\pdftexcmds.sty
+(D:\LATEX\tex/generic/infwarerr\infwarerr.sty)))
+(D:\LATEX\tex/latex/hycolor\hycolor.sty)
+(D:\LATEX\tex/latex/hyperref\nameref.sty
+(D:\LATEX\tex/latex/refcount\refcount.sty)
+(D:\LATEX\tex/generic/gettitlestring\gettitlestring.sty
+(D:\LATEX\tex/latex/kvoptions\kvoptions.sty)))
+(D:\LATEX\tex/latex/etoolbox\etoolbox.sty)
+(D:\LATEX\tex/generic/stringenc\stringenc.sty)
+(D:\LATEX\tex/latex/hyperref\pd1enc.def)
+(D:\LATEX\tex/generic/intcalc\intcalc.sty)
+(D:\LATEX\tex/latex/hyperref\puenc.def) (D:\LATEX\tex/latex/url\url.sty)
+(D:\LATEX\tex/generic/bitset\bitset.sty
+(D:\LATEX\tex/generic/bigintcalc\bigintcalc.sty)))
+(D:\LATEX\tex/latex/hyperref\hpdftex.def
+(D:\LATEX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(D:\LATEX\tex/generic/uniquecounter\uniquecounter.sty)))
+(D:\LATEX\tex/latex/listings\lstlang1.sty)
+(D:\LATEX\tex/latex/listings\lstmisc.sty)
+(D:\LATEX\tex/latex/l3backend\l3backend-pdftex.def)
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.aux)
+(D:\LATEX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (D:\LATEX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+(D:\LATEX\tex/latex/00miktex\epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.out)
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.out) [1{C:/ProgramData/MiKTeX/fonts/map/
+pdftex/pdftex.map} <./hcmut_logo.png>]
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.toc) [1]
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.lof)
+(NguyenCapQuocKhanh_2452500_CC03_Lab02.lot) [2]
+(D:\LATEX\tex/latex/vntex\t5cmtt.fd) [1] [2 <./ex1.png>] [3] [4] [5 <./ex2.png>
+] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15 <./ex9.png>] [16] [17] [18]
+[19] [20] (NguyenCapQuocKhanh_2452500_CC03_Lab02.aux) )
+pdfTeX warning (dest): name{table.2} has been referenced but does not exist, re
+placed by a fixed one
+
+<D:/LATEX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/LATEX/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><D:/LATEX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:
+/LATEX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/LATEX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><D:/LATEX/fonts/type1/vntex/vnr/vnbx10.pfb><D:/LATEX/fonts/
+type1/vntex/vnr/vnbx12.pfb><D:/LATEX/fonts/type1/vntex/vnr/vnr10.pfb><D:/LATEX/
+fonts/type1/vntex/vnr/vnr12.pfb><D:/LATEX/fonts/type1/vntex/vnr/vnr5.pfb><D:/LA
+TEX/fonts/type1/vntex/vnr/vnr8.pfb><D:/LATEX/fonts/type1/vntex/vnr/vnr9.pfb><D:
+/LATEX/fonts/type1/vntex/vnr/vnti10.pfb><D:/LATEX/fonts/type1/vntex/vnr/vntt10.
+pfb><D:/LATEX/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on NguyenCapQuocKhanh_2452500_CC03_Lab02.pdf (23 pages, 522987 b
+ytes).
+Transcript written on NguyenCapQuocKhanh_2452500_CC03_Lab02.log.

@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"ex10_real_clock\startup_stm32f103xb.o"
+"ex10_real_clock\main.o"
+"ex10_real_clock\stm32f1xx_it.o"
+"ex10_real_clock\stm32f1xx_hal_msp.o"
+"ex10_real_clock\stm32f1xx_hal_gpio_ex.o"
+"ex10_real_clock\stm32f1xx_hal.o"
+"ex10_real_clock\stm32f1xx_hal_rcc.o"
+"ex10_real_clock\stm32f1xx_hal_rcc_ex.o"
+"ex10_real_clock\stm32f1xx_hal_gpio.o"
+"ex10_real_clock\stm32f1xx_hal_dma.o"
+"ex10_real_clock\stm32f1xx_hal_cortex.o"
+"ex10_real_clock\stm32f1xx_hal_pwr.o"
+"ex10_real_clock\stm32f1xx_hal_flash.o"
+"ex10_real_clock\stm32f1xx_hal_flash_ex.o"
+"ex10_real_clock\stm32f1xx_hal_exti.o"
+"ex10_real_clock\system_stm32f1xx.o"
+--strict --scatter "EX10_REAL_CLOCK\EX10_REAL_CLOCK.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX10_REAL_CLOCK.map" -o EX10_REAL_CLOCK\EX10_REAL_CLOCK.axf

@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ex4_4_7seg\startup_stm32f103xb.o"
+"ex4_4_7seg\main.o"
+"ex4_4_7seg\stm32f1xx_it.o"
+"ex4_4_7seg\stm32f1xx_hal_msp.o"
+"ex4_4_7seg\stm32f1xx_hal_gpio_ex.o"
+"ex4_4_7seg\stm32f1xx_hal_tim.o"
+"ex4_4_7seg\stm32f1xx_hal_tim_ex.o"
+"ex4_4_7seg\stm32f1xx_hal.o"
+"ex4_4_7seg\stm32f1xx_hal_rcc.o"
+"ex4_4_7seg\stm32f1xx_hal_rcc_ex.o"
+"ex4_4_7seg\stm32f1xx_hal_gpio.o"
+"ex4_4_7seg\stm32f1xx_hal_dma.o"
+"ex4_4_7seg\stm32f1xx_hal_cortex.o"
+"ex4_4_7seg\stm32f1xx_hal_pwr.o"
+"ex4_4_7seg\stm32f1xx_hal_flash.o"
+"ex4_4_7seg\stm32f1xx_hal_flash_ex.o"
+"ex4_4_7seg\stm32f1xx_hal_exti.o"
+"ex4_4_7seg\system_stm32f1xx.o"
+--strict --scatter "EX4_4_7SEG\EX4_4_7SEG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX4_4_7SEG.map" -o EX4_4_7SEG\EX4_4_7SEG.axf

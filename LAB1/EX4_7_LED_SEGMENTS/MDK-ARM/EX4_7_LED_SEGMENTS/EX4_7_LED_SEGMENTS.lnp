@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"ex4_7_led_segments\startup_stm32f103xb.o"
+"ex4_7_led_segments\main.o"
+"ex4_7_led_segments\stm32f1xx_it.o"
+"ex4_7_led_segments\stm32f1xx_hal_msp.o"
+"ex4_7_led_segments\stm32f1xx_hal_gpio_ex.o"
+"ex4_7_led_segments\stm32f1xx_hal.o"
+"ex4_7_led_segments\stm32f1xx_hal_rcc.o"
+"ex4_7_led_segments\stm32f1xx_hal_rcc_ex.o"
+"ex4_7_led_segments\stm32f1xx_hal_gpio.o"
+"ex4_7_led_segments\stm32f1xx_hal_dma.o"
+"ex4_7_led_segments\stm32f1xx_hal_cortex.o"
+"ex4_7_led_segments\stm32f1xx_hal_pwr.o"
+"ex4_7_led_segments\stm32f1xx_hal_flash.o"
+"ex4_7_led_segments\stm32f1xx_hal_flash_ex.o"
+"ex4_7_led_segments\stm32f1xx_hal_exti.o"
+"ex4_7_led_segments\system_stm32f1xx.o"
+--strict --scatter "EX4_7_LED_SEGMENTS\EX4_7_LED_SEGMENTS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX4_7_LED_SEGMENTS.map" -o EX4_7_LED_SEGMENTS\EX4_7_LED_SEGMENTS.axf

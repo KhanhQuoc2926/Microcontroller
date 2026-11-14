@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"ex3_4_way_traffic_light\startup_stm32f103xb.o"
+"ex3_4_way_traffic_light\main.o"
+"ex3_4_way_traffic_light\stm32f1xx_it.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_msp.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_gpio_ex.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_rcc.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_rcc_ex.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_gpio.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_dma.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_cortex.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_pwr.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_flash.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_flash_ex.o"
+"ex3_4_way_traffic_light\stm32f1xx_hal_exti.o"
+"ex3_4_way_traffic_light\system_stm32f1xx.o"
+--strict --scatter "EX3_4_WAY_TRAFFIC_LIGHT\EX3_4_WAY_TRAFFIC_LIGHT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX3_4_WAY_TRAFFIC_LIGHT.map" -o EX3_4_WAY_TRAFFIC_LIGHT\EX3_4_WAY_TRAFFIC_LIGHT.axf

@@ -1,0 +1,3 @@
+PASS tick=1: MODE/INC/SET, retained press events, 3-sample debounce, held INC repeat, R=G+Y save/reject, 2Hz all colours, countdown, range/wrap, scan, timer rollover
+PASS tick=10: MODE/INC/SET, retained press events, 3-sample debounce, held INC repeat, R=G+Y save/reject, 2Hz all colours, countdown, range/wrap, scan, timer rollover
+PASS tick=100: MODE/INC/SET, retained press events, 3-sample debounce, held INC repeat, R=G+Y save/reject, 2Hz all colours, countdown, range/wrap, scan, timer rollover

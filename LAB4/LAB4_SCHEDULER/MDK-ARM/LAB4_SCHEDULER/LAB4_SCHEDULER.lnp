@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"lab4_scheduler\startup_stm32f103xb.o"
+"lab4_scheduler\scheduler_o1.o"
+"lab4_scheduler\main.o"
+"lab4_scheduler\stm32f1xx_it.o"
+"lab4_scheduler\stm32f1xx_hal_msp.o"
+"lab4_scheduler\stm32f1xx_hal_gpio_ex.o"
+"lab4_scheduler\stm32f1xx_hal_uart.o"
+"lab4_scheduler\stm32f1xx_hal_tim.o"
+"lab4_scheduler\stm32f1xx_hal_tim_ex.o"
+"lab4_scheduler\stm32f1xx_hal.o"
+"lab4_scheduler\stm32f1xx_hal_rcc.o"
+"lab4_scheduler\stm32f1xx_hal_rcc_ex.o"
+"lab4_scheduler\stm32f1xx_hal_gpio.o"
+"lab4_scheduler\stm32f1xx_hal_dma.o"
+"lab4_scheduler\stm32f1xx_hal_cortex.o"
+"lab4_scheduler\stm32f1xx_hal_pwr.o"
+"lab4_scheduler\stm32f1xx_hal_flash.o"
+"lab4_scheduler\stm32f1xx_hal_flash_ex.o"
+"lab4_scheduler\stm32f1xx_hal_exti.o"
+"lab4_scheduler\system_stm32f1xx.o"
+--strict --scatter "LAB4_SCHEDULER\LAB4_SCHEDULER.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LAB4_SCHEDULER.map" -o LAB4_SCHEDULER\LAB4_SCHEDULER.axf

@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Operating-mode FSM with entry actions and editing-mode events.}}{2}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Normal-operation FSM; guards are checked after the one-second decrement.}}{4}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Traffic-light schematic with MODE, INC, SET, and two display pairs.}}{6}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces STM32CubeMX GPIO settings: active-low inputs with pull-ups and the project pinout.}}{8}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces TIM2 internal-clock configuration: prescaler 799 and auto-reload 99.}}{9}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces NVIC configuration: TIM2 interrupt enabled at priority 2 and SysTick at priority 15.}}{9}{figure.6}%

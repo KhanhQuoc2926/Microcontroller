@@ -1,0 +1,48 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Overview}{1}{section*.4}%
+\contentsline {subsection}{\numberline {0.1}Hardware timing base}{1}{subsection.0.1}%
+\contentsline {section}{\numberline {1}Exercise 1: Two-digit scanning}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Implementation idea and circuit}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Shared segment function}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Interrupt implementation and scanning frequency}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Exercise 2: Four-digit multiplexing}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Implementation idea and circuit extension}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Independent countdowns}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Execution sequence}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Exercise 3: Buffer-based digit selection}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Implementation idea and selection function}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Buffer substitution and expected behavior}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Exercise 4: One-hertz display scanning}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Implementation idea and timing calculation}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Replacement timer callback}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Expected scan and independent DOT timing}{10}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Exercise 5: Digital clock and decimal buffer}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Implementation idea and clock representation}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Blocking time update and rollover}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Rollover example and expected display}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Exercise 6: Software-timer operation}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Implementation idea, counter, and flag}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Isolated LED demonstration}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Initial timer call omitted}{14}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Initial duration set to 1 ms}{14}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Initial duration set to 10 ms}{14}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Integration with the existing clock}{14}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Exercise 7: Non-blocking digital clock}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Implementation idea and task allocation}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Replacement main loop and callback}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Tracing the first one-second event}{16}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Exercise 8: Foreground digit scanning}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Implementation idea: moving display work to main}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Simultaneous events and execution order}{17}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Exercise 9: LED-matrix character display}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Implementation idea and signal mapping}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Column buffer and row function}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Matrix selection function}{19}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Foreground scheduling and scan timing}{20}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Combining the matrix and clock tasks}{21}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Exercise 10: Left-shifting matrix animation}{21}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Implementation idea: circular shifting}{21}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Animation interval and expected behavior}{22}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Pending request and first animation step}{23}{subsection.10.3}%
+\contentsline {section}{Conclusion}{23}{section*.5}%
+\contentsline {section}{References}{24}{section*.6}%
