@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Proteus circuit with USART2, a variable analog input, and a voltage follower.}}{2}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Data flow from interrupt reception to a saved ADC response.}}{6}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Two-state parser with delimiter resynchronization and bounded token storage.}}{8}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Request, saved-packet retransmission, and acknowledgment transitions.}}{10}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Simulation at approximately 1.65 V with ADC response frames containing 2048.}}{14}{figure.5}%
